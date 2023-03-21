@@ -1,0 +1,74 @@
+.upperContainer {
+    background-color: #404eed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    width: auto;
+    top: 20px;
+    left: 100px;
+}
+
+.refreshButton {
+    position: absolute;
+    top: 400px;
+    background-color: #23272a;
+    border: #23272a;
+    color: white;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px 30px;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.refreshButton:hover {
+    background-color: #313338;
+}
+
+.backgroundRightImage {
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    left: 1500px;
+    height: 500px;
+    width: auto;
+}
+
+.backgroundLeftImage {
+    position: relative;
+    top: 200px;
+    bottom: 0;
+    right: 1500px;
+    height: 500px;
+    width: auto;
+}
+
+.backgroundMiddleImage {
+    position: absolute;
+    bottom: 0;
+}
+
+.title {
+    position: absolute;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 70px;
+    color: white;
+    font-size: 100px;
+}
+
+.text {
+    position: absolute;
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    top: 300px;
+    color: white;
+    font-size: 20px;
+}
