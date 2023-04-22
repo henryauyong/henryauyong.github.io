@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discord</title>
+    <link rel="icon" type="image/x-icon" href="/src/pageIcon.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body scroll="no" style="overflow: hidden">
+
+<img src="/src/background.png" alt="" class="backgroundImage">
+
+<div class="wholeContainer">
+    <div class="uiContainer">
+        <div class="leftContainer">
+            <div class="header">
+                <div class="titlediv">
+                    <h1 class="title">Welcome back!</h1>
+                </div>
+                <div class="titlediv">
+                    <p class="subtitle">We're so excited to see you again!</p>
+                </div>
+            </div>
+
+            <div class="inputContainer">
+                <div class="discdiv">
+                    <h1 class="disc">
+                        EMAIL OR PHONE NUMBER
+                        <h1 class="disc" style="color: red">*</h1>
+                    </h1>
+                </div>
+                <label for="email"></label>
+                <input class="input" type="email" id="email" spellcheck="false">
+
+                <br>
+
+                <div class="discdiv">
+                    <h1 class="disc">
+                        PASSWORD
+                        <h1 class="disc" style="color: red">*</h1>
+                    </h1>
+                </div>
+                <label for="password"></label>
+                <input class="input" type="password" id="password" spellcheck="false">
+
+                <div>
+                    <a href="https://youtube.com" class="hyperlink">Forgot your password?</a>
+                </div>
+
+                <br>
+
+                <button class="logIn" id="logInButton"><b>Log In</b></button>
+
+                <p class="bruh">
+                    Need an account?
+                    <a href="https://youtube.com" class="hyperlink"> Register</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="rightContainer">
+            <div class="imagediv">
+                <img src="/src/qr-code.png" class="qrCode">
+            </div>
+
+            <br><br>
+
+            <div class="header">
+                <div class="titlediv">
+                    <h1 class="title">Log in with QR Code</h1>
+                </div>
+                <div class="titlediv">
+                    <p class="subtitle">
+                        Scan this with the <b>Discord mobile<br>
+                        app</b> to log in instantly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    document.getElementById("logInButton").onclick = function () {
+        location.href = "https://www.youtube.com/watch?v=PXqcHi2fkXI"
+    }
+</script>
+</html>
